@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 0;
+  width: 1440px;
+}
+
+main {
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  width: 100%;
+}
+
+.second-title {
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+}
+
+.link {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02px;
+  color: #214E41;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Brella {
+  margin-left: 45px;
+  margin-top: 35px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+.section {
+    width: 100%;
+}
+.second-title {
+    font-size: 36px;
+    line-height: 46px;
+    color: $firstly-text-color;
+}
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02px;
+    color: $secondary-text-color;
+}
+.link {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02px;
+    color: $firstly-text-color;
+}
