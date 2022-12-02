@@ -1,0 +1,100 @@
+.hero {
+    background-image: url(..//..//images_and_icons/bcgimg-hero.jpg);
+    // background-size: contain;
+    padding-top: 161px;
+    padding-bottom: 281px;
+}
+.hero-container {
+    margin-left: 120px;
+    width: 660px;
+    height: 278px;
+
+    & .second-title {
+        width: 516px;
+        margin-bottom: 40px;
+    }
+}
+.hero-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $firstly-text-color;
+    margin-bottom: 16px;
+}
+.hero-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 403px;
+    height: 60px;
+    background-color: $footer-text-color;
+    border-radius: 6px;
+    align-items: center;
+}
+.hero-button-text {
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.hero-button {
+    padding: 20px 35px;
+    @extend %button;
+    border-radius: 0px 6px 6px 0px;
+}
+.fetures-container {
+    width: 1200px;
+    background-color: $footer-text-color;
+    box-shadow: 1px 1px 6px 
+    rgba(232, 230, 230, 0.6);
+    border-radius: 6px;
+    position: absolute;
+    z-index: 0;
+    height: 171px;
+    left: 120px;
+    top: 753px;
+}
+.fetures-list {
+    margin: 50px;
+    display: flex;
+}
+.fetures-item {
+    display: flex;
+
+    &:nth-of-type(1)::before {
+        content: '';    
+        display: inline-block;
+        background-image: url(..//..//images_and_icons/feture-img-1.jpg);
+        width: 41px;
+        height: 45px;
+    }
+    &:nth-of-type(2)::before {
+        content: '';    
+        display: inline-block;
+        background-image: url(..//..//images_and_icons/feture-img-2.jpg);
+        width: 46px;
+        height: 45px;
+        margin-left: 45px;
+    }
+    &:nth-of-type(3)::before {
+        content: '';    
+        display: inline-block;
+        background-image: url(..//..//images_and_icons/feture-img-3.jpg);
+        width: 58px;
+        height: 45px;
+        margin-left: 42px;
+    }
+}
+.fetures-text-container {
+    width: 276px;
+    margin-left: 10px;
+}
+.fetures-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $firstly-text-color;
+}
+.fetures-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: $firstly-text-color;
+}
