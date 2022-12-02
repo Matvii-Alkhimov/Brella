@@ -1,7 +1,47 @@
 .header {
     display: flex;
+    height: 90px;
 }
 .Brella {
     margin-left: 45px;
-    margin-top: 35px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    color: $firstly-text-color;
+    height: 25px;
+}
+nav {
+    height: 20px;
+    width: 585px;
+    margin-top: 29px;
+    margin-left: 308px;
+    margin-right: 69px;
+}
+.nav-list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: $firstly-text-color;
+}
+.demo-button {
+    height: 20px;
+    box-sizing: content-box;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 19px;
+    @extend %button;
+}
+.login-form {
+    margin-top: 29px;
+    margin-left: 29px;
+}
+.language-form {
+    margin-top: 29px;
+    margin-left: 44px;
 }
