@@ -21,3 +21,28 @@
     letter-spacing: 0.02px;
     color: $firstly-text-color;
 }
+%button {
+    background-color: $button-color;
+    font-size: 14px;
+    line-height: 20px;
+    color: $footer-text-color;
+    cursor: pointer;
+    border: none;
+}
+.comment {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    color: $button-color;
+    margin-bottom: 20px;
+}
+.link {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02px;
+    color: $firstly-text-color;
+    padding-bottom: 10px;
+    border-bottom: 3px $firstly-text-color solid;
+}
