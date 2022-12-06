@@ -1,0 +1,55 @@
+.brings {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: linear-gradient(
+        to right,
+        #E3EEED 705px,
+        #214E41 705px,
+    );
+}
+.brings-container {
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.brings-benefits {
+    width: 50%;
+    padding-left: 100px;
+
+    & .second-title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    & .comment {
+        margin-bottom: 29px;
+    }
+}
+.brings-item {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: $button-color;
+}
+.brings-text-container {
+    width: 735px;
+    padding-left: 115px;
+    padding-right: 112px;
+    padding-top: 45px;
+}
+.brings-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02px;
+    color: $footer-text-color;
+    width: 488px;
+
+    &:last-of-type {
+        margin-top: 34px;
+    }
+}
