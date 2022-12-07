@@ -70,7 +70,7 @@ img {
   color: #214E41;
 }
 
-.hero-button, .demo-button {
+.talk-button, .hero-button, .demo-button {
   background-color: #43806C;
   font-size: 14px;
   line-height: 20px;
@@ -161,7 +161,7 @@ nav {
 }
 
 .hero {
-  background-image: url(..//..//images_and_icons/bcgimg-hero.jpg);
+  background-image: url(..//..//images_and_icons/images/bcgimg-hero.jpg);
   padding-top: 161px;
   padding-bottom: 281px;
 }
@@ -238,14 +238,14 @@ nav {
 .fetures-item:nth-of-type(1)::before {
   content: "";
   display: inline-block;
-  background-image: url(..//..//images_and_icons/feture-img-1.jpg);
+  background-image: url(..//..//images_and_icons/images/feture-img-1.jpg);
   width: 41px;
   height: 45px;
 }
 .fetures-item:nth-of-type(2)::before {
   content: "";
   display: inline-block;
-  background-image: url(..//..//images_and_icons/feture-img-2.jpg);
+  background-image: url(..//..//images_and_icons/images/feture-img-2.jpg);
   width: 46px;
   height: 45px;
   margin-left: 45px;
@@ -253,7 +253,7 @@ nav {
 .fetures-item:nth-of-type(3)::before {
   content: "";
   display: inline-block;
-  background-image: url(..//..//images_and_icons/feture-img-3.jpg);
+  background-image: url(..//..//images_and_icons/images/feture-img-3.jpg);
   width: 58px;
   height: 45px;
   margin-left: 42px;
@@ -465,7 +465,7 @@ nav {
 .statistic-container {
   margin-right: 120px;
   margin-left: 120px;
-  background-image: url(..//..//images_and_icons/statistic-img.jpg);
+  background-image: url(..//..//images_and_icons/images/statistic-img.jpg);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -512,7 +512,7 @@ nav {
   margin-left: auto;
   padding-top: 69px;
   padding-bottom: 117px;
-  background-image: url(..//..//images_and_icons/plan-img.jpg);
+  background-image: url(..//..//images_and_icons/images/plan-img.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 115px 0px;
@@ -531,4 +531,144 @@ nav {
 }
 .plan-container .link {
   margin-left: 634px;
+}
+
+.for-employers {
+  padding: 126px 0px 112px 120px;
+  background-image: url(..//..//images_and_icons/images/employers-bcgimg.jpg);
+}
+
+.for-employers-container {
+  width: 600px;
+  height: 282px;
+}
+.for-employers-container .second-title {
+  width: 391px;
+  margin-bottom: 34px;
+}
+.for-employers-container .text {
+  margin-bottom: 24px;
+}
+
+.companies {
+  padding-top: 120px;
+}
+
+.companies-container {
+  margin-right: 45px;
+  margin-left: 45px;
+  padding-bottom: 120px;
+  border-bottom: rgba(199, 199, 199, 0.37) solid;
+}
+.companies-container .second-title {
+  width: 313px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 115px;
+}
+.companies-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+.companies-container button {
+  background-color: white;
+  width: 24px;
+  height: 18px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+.companies-container button svg {
+  fill: #214E41;
+}
+
+.companies-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company-item:not(:last-of-type) {
+  margin-right: 80px;
+}
+.company-item:last-of-type {
+  margin-left: 14px;
+}
+
+.left-button {
+  margin-right: 47px;
+  margin-left: 78px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.right-button {
+  margin-right: 74px;
+  margin-left: 62px;
+}
+
+.examples {
+  padding: 120px;
+}
+
+.examples-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 56px;
+}
+
+.example-item {
+  width: 355px;
+}
+.example-item figure {
+  margin: 0;
+}
+.example-item figcaption {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+  margin-top: 21px;
+  margin-bottom: 15px;
+}
+
+.example-image {
+  height: 236px;
+}
+
+.example-title {
+  width: 330px;
+}
+
+.talk {
+  padding: 144px 120px 96px 840px;
+  background-image: url(..//..//images_and_icons/images/talk-bcgimg.jpg);
+  background-repeat: no-repeat;
+  background-color: #E3EEED;
+}
+.talk .second-title:first-of-type {
+  width: 423px;
+  margin-bottom: 46px;
+}
+.talk .second-title:last-of-type {
+  width: 170px;
+  margin-bottom: 60px;
+}
+
+.talk-button {
+  border-radius: 6px;
+  padding: 13px 24px;
 }/*# sourceMappingURL=main.css.map */

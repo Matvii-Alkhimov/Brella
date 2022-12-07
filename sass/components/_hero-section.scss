@@ -1,5 +1,5 @@
 .hero {
-    background-image: url(..//..//images_and_icons/bcgimg-hero.jpg);
+    background-image: url(..//..//images_and_icons/images/bcgimg-hero.jpg);
     // background-size: contain;
     padding-top: 161px;
     padding-bottom: 281px;
@@ -61,14 +61,14 @@
     &:nth-of-type(1)::before {
         content: '';    
         display: inline-block;
-        background-image: url(..//..//images_and_icons/feture-img-1.jpg);
+        background-image: url(..//..//images_and_icons/images/feture-img-1.jpg);
         width: 41px;
         height: 45px;
     }
     &:nth-of-type(2)::before {
         content: '';    
         display: inline-block;
-        background-image: url(..//..//images_and_icons/feture-img-2.jpg);
+        background-image: url(..//..//images_and_icons/images/feture-img-2.jpg);
         width: 46px;
         height: 45px;
         margin-left: 45px;
@@ -76,7 +76,7 @@
     &:nth-of-type(3)::before {
         content: '';    
         display: inline-block;
-        background-image: url(..//..//images_and_icons/feture-img-3.jpg);
+        background-image: url(..//..//images_and_icons/images/feture-img-3.jpg);
         width: 58px;
         height: 45px;
         margin-left: 42px;

@@ -1,0 +1,20 @@
+.talk {
+    padding: 144px 120px 96px 840px;
+    background-image: url(..//..//images_and_icons/images/talk-bcgimg.jpg);
+    background-repeat: no-repeat;
+    background-color: #E3EEED;
+
+    .second-title:first-of-type {
+        width: 423px;
+        margin-bottom: 46px;
+    }
+    .second-title:last-of-type {
+        width: 170px;
+        margin-bottom: 60px;
+    }
+}
+.talk-button {
+    @extend %button;
+    border-radius: 6px;
+    padding: 13px 24px;
+}

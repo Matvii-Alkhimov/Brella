@@ -1,0 +1,33 @@
+.examples {
+    padding: 120px;
+}
+.examples-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 56px;
+}
+.example-item {
+    width: 355px;
+
+    figure {
+        margin: 0;
+    }
+    figcaption {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 0.05px;
+        text-transform: uppercase;
+        color: $button-color;
+        margin-top: 21px;
+        margin-bottom: 15px;
+    }
+}
+.example-image {
+    height: 236px;
+}
+.example-title {
+    width: 330px;
+}

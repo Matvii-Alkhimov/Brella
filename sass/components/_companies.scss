@@ -1,0 +1,56 @@
+.companies {
+    padding-top: 120px;
+    
+}
+.companies-container {
+    margin-right: 45px;
+    margin-left: 45px;
+    padding-bottom: 120px;
+    border-bottom: rgba(199, 199, 199, 0.37)  solid;
+
+    .second-title {
+        width: 313px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 115px;
+    }
+    div {
+        display: flex;
+        align-items: center;
+        height: 60px;
+    }
+    button {
+        background-color: white;
+        width: 24px;
+        height: 18px;
+        padding: 0;
+        cursor: pointer;
+        border: none;
+
+        svg {
+            fill: $firstly-text-color;
+        }
+    }
+}
+.companies-list {
+    display: flex;
+}
+.company-item {
+
+
+    &:not(:last-of-type) {
+        margin-right: 80px;
+    }
+    &:last-of-type {
+        margin-left: 14px;
+    }
+}
+.left-button {
+    margin-right: 47px;
+    margin-left: 78px;
+    transform: rotate(180deg);
+}
+.right-button {
+    margin-right: 74px;
+    margin-left: 62px;
+}
