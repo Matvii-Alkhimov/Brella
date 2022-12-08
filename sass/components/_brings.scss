@@ -22,6 +22,14 @@
         font-size: 32px;
         line-height: 42px;
     }
+    & .second-title::after {
+        content: '';
+        display: inline-block;
+        background-image: url(..//..//images_and_icons/icons/next.svg);
+        width: 24px;
+        height: 18px;
+        margin-left: 25px;
+    }
     & .comment {
         margin-bottom: 29px;
     }

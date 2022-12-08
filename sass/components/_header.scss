@@ -1,14 +1,15 @@
 .header {
     display: flex;
     height: 90px;
-}
-.Brella {
-    margin-left: 45px;
-    margin-top: 30px;
-    font-size: 25px;
-    font-weight: 400;
-    color: $firstly-text-color;
-    height: 25px;
+
+    .Brella {
+        margin-left: 45px;
+        margin-top: 30px;
+
+        svg {
+            fill: $firstly-text-color;
+        }
+    }
 }
 nav {
     height: 20px;
