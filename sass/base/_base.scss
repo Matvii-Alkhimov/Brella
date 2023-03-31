@@ -3,7 +3,7 @@ body {
     font-style: normal;
     font-weight: 700;
     margin-left: 0;
-    width: 1440px;
+    // width: 1550px;
 }
 main {
     width: 100%;
@@ -27,6 +27,15 @@ a {
     padding: 0;
     color: var(--primary-text-color);
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+a:hover,
+a:focus {
+    color: #43806C;
+    border-color: #43806C;
 }
 ul {
     list-style: none;

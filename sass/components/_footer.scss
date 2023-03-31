@@ -5,23 +5,32 @@
 }
 .navigation-footer {
     display: flex;
+    padding-bottom: 70px;
+    border-bottom: 2px white solid;
 
     .Brella {
         margin-right: 105px;
         height: 28px;
         fill: $footer-text-color;
+        svg {
+            transition-duration: 250ms;
+            transition-property: all;
+            transition-timing-function: linear;
+        }
     }
-    ul {
-        width: 85px;
+    .Brella:hover,
+    .Brella:focus {
+        color: #43806C;
+    }
+    .join-list,
+    .team-list {
+        width: 70px;
         height: 195px;
-        margin-right: 115px;
+        
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
-        &:last-of-type {
-            margin: 0;
-        }
         h3 {
             width: 85px;
             font-family: 'Raleway';
@@ -32,6 +41,9 @@
             letter-spacing: 0.02px;
             text-transform: uppercase;
         }
+    }
+    .join-list {
+        margin-right: 115px;
     }
     li {
         font-family: 'Raleway';
@@ -44,7 +56,7 @@
 
 .contacts-container {
     width: 355px;
-    margin-left: 370px;
+    margin-left: 385px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -85,4 +97,59 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
+}
+.webs-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 128px;
+    height: 26px;
+
+
+    
+
+}
+.webs-item {
+    width: 26px;
+    height: 26px;
+}
+.web-link {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        fill: white;
+    }
+}
+.footer-text {
+    padding-top: 79px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+}
+.footer-end {
+    padding-top: 90px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-end-list {
+    width: 178px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
 }
